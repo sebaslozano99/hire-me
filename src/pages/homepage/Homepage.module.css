@@ -1,0 +1,33 @@
+.homepage {
+    width: 100;
+    min-height: 100vh;
+    background-color: #ccc;
+    background-image: linear-gradient(
+        rgba(36, 42, 46, 0.2),
+        rgba(36, 42, 46, 0.5)
+      ),
+      url(../../../public/image\ 01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+
+.homepage section {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.homepage section p{
+    color: #fff;
+    font-size: 2.4em;
+}
+
+
+.homepage section p strong {
+    font-size: 1.5em;
+}
+

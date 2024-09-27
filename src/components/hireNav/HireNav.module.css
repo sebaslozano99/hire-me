@@ -1,0 +1,19 @@
+.hireNav {
+    list-style: none;
+    display: flex;
+    /* border: 2px solid rgb(55, 0, 255); */
+
+}
+
+.hireNav li a:global(.active){
+    background-color: rgb(30, 118, 1);
+}
+
+.hireNav li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(48, 191, 0);
+    display: block;
+    padding: 5px 15px;
+}
+
