@@ -48,3 +48,8 @@
 .btn {
     background-color: transparent;
 }
+
+
+.selected{
+    color: #1E7601;
+}

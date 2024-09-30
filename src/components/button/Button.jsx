@@ -2,7 +2,10 @@ import PropTyes from "prop-types";
 
 
 
-export default function Button({onClick, 
+export default function Button({
+    onClick, 
+    onMouseEnter,
+    value = "",
     fontSize = 25, 
     padding = 5,
     className = "",
@@ -17,7 +20,7 @@ export default function Button({onClick,
   }
 
   return (
-    <button onClick={onClick} className={className} style={additionalStyles} >
+    <button onClick={onClick} onMouseEnter={onMouseEnter} className={className} style={additionalStyles} value={value} >
       {children}
     </button>
   )
@@ -25,10 +28,11 @@ export default function Button({onClick,
 
 
 Button.propTypes = {
-  className: PropTyes.string,
   onClick: PropTyes.func,
-  children: PropTyes.node,
+  onMouseEnter: PropTyes.func,
+  className: PropTyes.string,
+  value: PropTyes.string,
   fontSize: PropTyes.number,
   padding: PropTyes.number,
-
+  children: PropTyes.node,
 }
