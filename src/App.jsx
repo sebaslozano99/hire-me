@@ -53,6 +53,7 @@ export default function App() {
         <Route path="/hire" element={ <Hire /> } >
           <Route index element={ <Navigate to="candidates" replace /> } />
           <Route path="candidates" element={ <CandidatesContainer candidates={candidates} /> } />
+          <Route path="candidates/:userOd" element={ <div>Candidate userId</div> } />
           <Route path="mycandidates" element={ <p>My Candidates</p> } />
         </Route>
 

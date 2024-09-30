@@ -1,11 +1,9 @@
 .container {
     width: 100%;
-    height: auto;
-    /* border: 2px dotted purple; */
     padding: 1.5em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
+    grid-template-rows: repeat(1, 350px);
+    grid-auto-rows: 350px;
     gap: 1.5em;
 }
