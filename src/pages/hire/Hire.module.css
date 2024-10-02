@@ -1,9 +1,9 @@
 .hire {
     width: 100;
     min-height: 100vh;
-    background-color: #6b6969;
+    background-color: #F3F9D2;
     padding: 2em 0;
-    border: 5px dashed red;
+    /* border: 5px dashed red; */
     display: flex;
     flex-direction: column;
     align-items: center;

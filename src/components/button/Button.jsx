@@ -9,6 +9,7 @@ export default function Button({
     fontSize = 25, 
     padding = 5,
     className = "",
+    disabled = false,
     children
   }) {
 
@@ -20,7 +21,7 @@ export default function Button({
   }
 
   return (
-    <button onClick={onClick} onMouseEnter={onMouseEnter} className={className} style={additionalStyles} value={value} >
+    <button onClick={onClick} onMouseEnter={onMouseEnter} className={className} style={additionalStyles} value={value} disabled={disabled} >
       {children}
     </button>
   )
@@ -28,6 +29,7 @@ export default function Button({
 
 
 Button.propTypes = {
+  disabled: PropTyes.bool,
   onClick: PropTyes.func,
   onMouseEnter: PropTyes.func,
   className: PropTyes.string,

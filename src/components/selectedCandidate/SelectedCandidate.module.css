@@ -1,3 +1,39 @@
 .selectedCandidate {
     border: 5px dashed goldenrod;
+    width: 70%;
+    height: 100vh;
+    background-color: #BDC4A7;
 }
+
+
+.selectedCandidate div:first-child {
+    border: 3px dashed red;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+
+.selectedCandidate div:first-child img {
+    border-radius: 50%;
+    /* width: 15em; */
+}
+/* 
+
+.selectedCandidate div:first-child div {
+    border: 3px solid #fff;
+} */
+
+
+.selectedCandidate div:first-child div p{
+    font-size: 2em;
+    color: #2F2F2F;
+}
+
+.selectedCandidate div:first-child div h1{
+    font-size: 2.5em;
+    color: #2F2F2F;
+}
+

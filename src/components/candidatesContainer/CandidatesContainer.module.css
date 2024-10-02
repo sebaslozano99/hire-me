@@ -1,4 +1,10 @@
 .container {
+    border: 4px solid green;
+    width: 100%;
+}
+
+
+.cardsContainer {
     width: 100%;
     padding: 1.5em;
     display: grid;
@@ -6,4 +12,15 @@
     grid-template-rows: repeat(1, 350px);
     grid-auto-rows: 350px;
     gap: 1.5em;
+    /* border: 5px solid red; */
+}
+
+
+.isLoadingContainer {
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

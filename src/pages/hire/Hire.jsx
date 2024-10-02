@@ -1,6 +1,7 @@
-import styles from "./Hire.module.css";
 import { Outlet } from "react-router-dom";
+import styles from "./Hire.module.css";
 import HireNav from "../../components/hireNav/HireNav";
+
 
 
 

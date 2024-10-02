@@ -7,7 +7,8 @@
     position:sticky;
     top: 0;
     /* border: 3px solid green; */
-    background-color: rgba(37, 37, 37, .8);
+    background-color: #93827F;
+    /* background-color: rgba(255, 255, 255, 0.5); */
     backdrop-filter: blur(5px);
     z-index: 1;
 }
@@ -20,11 +21,11 @@
 
 .header ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #2F2F2F;
     font-weight: bold;
 }
 
 
 .header ul li a:global(.active){
-    color: rgb(48, 191, 0);
+    color: #F3F9D2;
 }
